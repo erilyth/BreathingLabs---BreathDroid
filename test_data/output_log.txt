@@ -1,0 +1,27 @@
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (ID=0x1187)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.110 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Geek House\Desktop\Breathing Detection\Breathing Detection\test_Data\Managed\Boo.Lang.dll (this message is harmless)
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 34e4 -> priority: 1 
+  Thread -> id: 14d4 -> priority: 1 

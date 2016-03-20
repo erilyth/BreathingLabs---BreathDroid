@@ -1,0 +1,111 @@
+
+2.5
+Updates:
+-Added buttons to have quick and easy acces to code information. Users can simply copy complete scripting setups to the clipboard and paste them
+ into their own projects.
+-Changed explanation and tooltip text a bit.
+-Inspector is now cleaner and more understandable.
+-Changed the names of device dropdown list to slot X. To better match the representation of the detected devices list. This way users know what slot to select.
+-Visual indicator to show wether the microphone is active or not.
+-Added a help button that links to the MicControl 2 website page. Users can read FAQ's and watch tutorial videos (no videos available for now, working on it).
+-Improved inspector ui performance and speed.
+-Added Error logs and return. This prevents fatal errors and lets the user know what is going on.
+
+2.4
+Updates:
+
+-Moved all the variables (except device selection menu) to the editor script.
+-Added more tooltips to help you find your way.
+-Added default values to every variable so everything work straight out of the box.
+-All tweakable variables are moved under the "Advanced settings" button.
+-The loudness bar now also shows the current loudness value. You can still see the loudness's history' in the console by selecting the Debug toggle.
+-Variables "Volume falloff, pann threshold and AudioListener" only show when Unity 4.x only! 3D sound is selected as these are obsolete in Unity 5.
+-The device name and number now show in the inspector by selecting Show Device name(s). It is no longer required to go in playmode first to see what your
+ devices are. Devices are also no longer printed to the console.
+-The script will only be active when the game window is active. This is to prevent time lag and keeps the loudness variable realtime.
+ the same rules apply when build.
+-Tweaked the readme file to be more clear, moved instructions to the top.
+
+Bugfixes:
+-Fixed several bugs in the example scene. Everything should load properly now.
+
+2.3
+Updates:
+
+-The project is no longer open source, removed community scripts as they where poorly maintained nor updated frequently enough.
+
+
+-Faster microphone initialization.
+-Created menu button under GameObject-Audio-MicControl.
+-Loudness value is no longer static and can no longer be called from other scripts without setup.
+
+-Users can now call data from multiple mic's by placing multiple controllers (this is the reason why Loudness is no longer static).
+ This was possible before, but required users to tweak the scripts. This is now done by defautl.
+ 
+-Adjusted the ReadMe file to correspond mentioned updates.
+-Generators now have a Gizmo.
+-Removed GUI properties: They where incomplete and obsolete.
+-Created reference script on how to call MicControl data. The scripts also contain a few examples on how to do things like adding force to rigid bodies by blowing.
+-3D sound is now only required for unity 4.x users, Unity  5 does this through the audioSource's spatial blend feature.
+-re-structured folder hierachy.
+
+Bugfixes:
+-Cleaned up some errors in the example scene.
+-Fixed audio delay when switching programs. Microphone now properly stops and re-initializes when application is active again.
+
+
+2.2.1(bugfix):
+
+Updates:
+
+Bugfixes:
+-Fixed small bug in the microphone initialisation process. The bug would go unoticed most of the times. Fixed 
+ made possible thanks to Vinicius Bruno.
+
+2.2:
+
+Updates:
+-Removed update list from the ReadMe file.
+-Added panning to simulate full 3D sound (only works when mute is off. This affects the left and right speakers.
+-updated ReadMe file (Javascript version).
+-Changed tooltip explanation.
+-Tweaked the data lag prevention. You will experience 
+-Created new example scene. This scene uses the microphone to stream audio from an object in space and adjust its scale based on the loudness.
+
+
+Bugfixes:
+-fixed bug in the 3D fallof.
+-fixed crash when calling the 'loudness' value in standalone mode (only happened very rarely).
+-Loudness value would not print to the console if debug is enabled.
+
+
+2.0:
+-Added 3D sound effect, based on listener distance.
+-New inspector interface with tooltips.
+-Added new tutorial guiding through the new features.
+-Edited UnityScript manual with the new variables and corresponding descriptions.
+-fixed bug that caused Unity to crash.
+-New example scene.
+
+1.2.5.1(hotfix):
+
+Uploaded with correct unity version.
+
+1.2.5
+
+-WebPlayer support for the JavaScript version
+-video tutorial webplayer
+-Chanced folder names
+-Fixed nasty bug that crashed WebPlayers
+
+
+
+1.2.4
+Updates: -Webplayer support: The script now recognize the webplayer and will catch the mic for autorization. When autorization is released, the mic will be initialized.
+
+
+1.2.3
+Updates: -Fixed audio bar (editor script) to visualize the Mic Input in the inspector (while ingame).
+		 -Fixed memory leak and call bugs.
+		 -Cleaned up Readme file: divided into chapters.
+		 -Video tutorial added.

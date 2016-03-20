@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{BF055BA9-5B02-32DA-D32C-1CE5F0109CD3}") = "Unity-Breathing-Detection-master", "Assembly-UnityScript.unityproj", "{FB91065A-E54D-91D2-34A2-4D0A648CDD9A}"
+EndProject
+Project("{BF055BA9-5B02-32DA-D32C-1CE5F0109CD3}") = "Unity-Breathing-Detection-master", "Assembly-UnityScript-Editor.unityproj", "{553223BB-2F3F-43A0-74F6-3EC6940194DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB91065A-E54D-91D2-34A2-4D0A648CDD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB91065A-E54D-91D2-34A2-4D0A648CDD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB91065A-E54D-91D2-34A2-4D0A648CDD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB91065A-E54D-91D2-34A2-4D0A648CDD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{553223BB-2F3F-43A0-74F6-3EC6940194DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{553223BB-2F3F-43A0-74F6-3EC6940194DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{553223BB-2F3F-43A0-74F6-3EC6940194DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{553223BB-2F3F-43A0-74F6-3EC6940194DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+EndGlobal
