@@ -10,3 +10,9 @@ Instructions:
 * Reach the green marker to finish the game.
 * Avoiding colliding with any boxes throughout the game.
 * Click/Touch to change the camera. There are 2 cameras, a follow cam and a side view cam.
+
+People who worked on this
+* Batchu Venkat Vishal [Team Leader]
+* Raghuram Vadapalli
+* Battu Varshit
+* Sai Ram Kolla
